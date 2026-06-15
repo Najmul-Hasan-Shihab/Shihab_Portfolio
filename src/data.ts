@@ -26,11 +26,11 @@ export const PERSONAL_INFO = {
   codechefRating: "1564 (2 Stars)",
   bio: "Highly motivated CSE graduate and researcher specializing in Machine Learning and Mobile App Development. Passionate about designing architectures, analyzing datasets for biomedical advancement, and engineered competitive programming algorithms to solve real-world complexities.",
   images: {
-    portrait: "/src/assets/images/Gemini_Generated_Image_r2hk36r2hk36r2hk.png",
-    heroBg: "/src/assets/images/hero_illustration_1781515192549.jpg",
-    serviceAi: "/src/assets/images/service_ai_card_1781515212438.jpg",
-    serviceMobile: "/src/assets/images/service_app_card_1781515230050.jpg",
-    serviceCoding: "/src/assets/images/service_prog_card_1781515248274.jpg"
+    portrait: "/assets/images/Gemini_Generated_Image_r2hk36r2hk36r2hk.png",
+    heroBg: "/assets/images/hero_illustration_1781515192549.jpg",
+    serviceAi: "/assets/images/service_ai_card_1781515212438.jpg",
+    serviceMobile: "/assets/images/service_app_card_1781515230050.jpg",
+    serviceCoding: "/assets/images/service_prog_card_1781515248274.jpg"
   }
 };
 
