@@ -1,0 +1,6 @@
+{
+  "name": "Md. Najmul Hasan Shihab Portfolio",
+  "description": "A high-performance, full-stack portfolio website for computer science graduate and ML researcher Md. Najmul Hasan Shihab, containing interactive components and a contact db.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

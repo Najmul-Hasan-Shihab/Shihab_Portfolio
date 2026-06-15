@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom visual micro-interactions and scrolls */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: rgba(197, 164, 126, 0.2);
+  color: #C5A47E;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5E5E5;
+  border-radius: 0px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #252525;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A47E;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #C5A47E;
+}
+
+
