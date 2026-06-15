@@ -61,12 +61,13 @@ export default function ContactForm() {
   };
 
   useEffect(() => {
-    fetchNotifications();
-    // Poll notifications every 5 seconds to show newly arriving emails if multiple tabs submit them
-    const timer = setInterval(() => {
-      fetchNotifications();
-    }, 5000);
-    return () => clearInterval(timer);
+    // Notification polling disabled for Vercel deployment
+    // fetchNotifications();
+    // // Poll notifications every 5 seconds to show newly arriving emails if multiple tabs submit them
+    // const timer = setInterval(() => {
+    //   fetchNotifications();
+    // }, 5000);
+    // return () => clearInterval(timer);
   }, []);
 
   // Form input validation rules
